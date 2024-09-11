@@ -1,0 +1,25 @@
+{
+  "name": "show-notify",
+  "version": "1.0.0",
+  "description": "This package helps you to give toast to your application with your custom messages.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+
+  },
+  "keywords": [],
+  "author": "Isaka James",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^2.79.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+
+}
